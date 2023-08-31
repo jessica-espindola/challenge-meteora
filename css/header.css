@@ -1,0 +1,133 @@
+/*---------------------- DESKTOP */
+.cabecalho {
+    gap: 63px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    color: var(--cor-branca);
+    margin-left: 23px;
+    margin: 9.5px 0px 11.5px 23px;
+}
+.menu-texto {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+    font-size: 16px;
+    line-height: 23px;
+}
+.cabecalho__nav nav a {
+    text-decoration: none;
+    color: var(--cor-branca); 
+}
+.cabecalho__hamburguer {
+    display: none;
+}
+.cabecalho__busca {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-right: 23px;
+}
+#input-busca {
+    padding: 7.5px 0px 6.5px 15px;
+    width: calc(170px - 15px);
+    height: calc(38px - 7.5px - 6.5px);
+    border: none;
+    font-family: var(--fonte);
+    font-size: 15px;
+    line-height: 24px;
+    color: #6C757D;
+}
+
+.btnBuscar {
+    letter-spacing: 0.46px;
+    line-height: 19.36px;
+    font-weight: 500;
+    padding: 9px 12px;
+    border: 1px solid var(--cor-branca);
+    background: transparent;
+    color: var(--cor-branca);
+}
+/*---------------------- TABLET */
+@media screen and (min-width: 768px){
+    .cabecalho {
+        gap: 63px;
+        display: flex;
+        flex-direction: row;
+    }
+    .cabecalho__nav {
+        gap: 20px;
+        margin: 18px 0px 16px 23px;
+    }
+    .menu-texto {
+        font-size: 13px;
+        line-height: 20px;
+        gap: 20px;
+    }
+
+    #input-busca {
+        padding: 7px 12px 11px 15px;
+        width: calc(145px - 12px - 15px);
+        height: calc(38px - 7px - 11px);
+    }
+}
+/*---------------------- MOBILE */
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--cor-preta);
+        border: 2px solid red;
+        gap: 0px;
+    }
+    .cabecalho__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0px;
+        width: 100vw;
+    }
+    .logo-meteora {
+        margin-left: 22px;
+    }
+    .menu-texto {
+        display: none;
+    }
+    .cabecalho__hamburguer {
+        display: block;
+        color: var(--cor-amarela);
+        margin-right: 21px;
+    }
+    .cabecalho__busca {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        background: var(--cor-branca);
+        width: 100vw;
+        margin: 0px;
+        padding: 24px 0px;
+    }
+    #input-busca {
+        padding: 9px 18.6px 8px 12px;
+        width: calc(225.6px - 12px - 18.6px - 2px);
+        height: calc(38px - 9px - 8px);
+        object-fit: cover;
+        border: 1px solid var(--cor-preta);
+    }
+    .btnBuscar {
+        border-color: var(--cor-preta);
+        color: var(--cor-preta);
+    }
+}
