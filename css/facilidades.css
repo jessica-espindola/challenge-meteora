@@ -1,0 +1,80 @@
+/*---------------------- DESKTOP */
+.conteudo__facilidades {
+    background-color: var(--cor-preta);
+}
+
+.conteudo__facilidades__caixa {
+    width: 976px;
+    margin: 0px auto;
+    padding: 40px 0px;
+    color: var(--cor-branca);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.conteudo__facilidades__caixa-titulo {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.73px;
+}
+.conteudo__facilidades__caixa__informacoes {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.conteudo__facilidades__caixa__informacoes-pix, .conteudo__facilidades__caixa__informacoes-troca, .conteudo__facilidades__caixa__informacoes-sustentabilidade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.titulo {
+    color: var(--cor-amarela);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.texto {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/*---------------------- TABLET */
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .conteudo__facilidades__caixa {
+        width: 566px;
+    }
+    .conteudo__facilidades__caixa__informacoes {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+}
+
+/*---------------------- MOBILE */
+@media screen and (max-width: 768px) {
+    .conteudo__facilidades__caixa {
+        width: 319px;
+    }
+    .conteudo__facilidades__caixa__informacoes {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .conteudo__facilidades__caixa-titulo {
+    text-align: center;
+    }
+    
+}
