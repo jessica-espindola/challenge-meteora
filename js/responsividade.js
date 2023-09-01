@@ -7,6 +7,7 @@ function verificarLarguraTela() {
         
         var logo = document.querySelector('.logo-meteora');
         logo.src = 'assets/Mobile/Logo mobile.png';
+
         var imagemCamisetaCat = document.querySelector('.categoria-img-camiseta');
         var imagemBolsaCat = document.querySelector('.categoria-img-bolsa');
         var imagemCalcadosCat = document.querySelector ('.categoria-img-calcados');
@@ -20,6 +21,20 @@ function verificarLarguraTela() {
         imagemCalcasCat.src = 'assets/Mobile/Categorias/Categoria calças.png';
         imagemCasacosCat.src = 'assets/Mobile/Categorias/Categoria Casacos.png';
         imagemOculosCat.src = 'assets/Mobile/Categorias/Categoria óculos.png';
+
+        var imagemCamisaProd = document.querySelector('.imagem-produto-camiseta');
+        var imagemCalçaProd = document.querySelector ('.imagem-produto-calça');
+        var imagemCasacoProd = document.querySelector('.imagem-produto-casaco');
+        var imagemCalçadoProd = document.querySelector('.imagem-produto-calçado');
+        var imagemBolsaProd = document.querySelector('.imagem-produto-bolsa');
+        var imagemOculosProd = document.querySelector('.imagem-produto-oculos');
+
+        imagemCamisaProd.src = 'assets/Mobile/Imagens cards/Card camiseta.png';
+        imagemCalçaProd.src = 'assets/Mobile/Imagens cards/Card calça.png';
+        imagemCasacoProd.src = 'assets/Mobile/Imagens cards/Card jaqueta jeans.png';
+        imagemCalçadoProd.src = 'assets/Mobile/Imagens cards/Card tenis.png';
+        imagemBolsaProd.src = 'assets/Mobile/Imagens cards/Card bolsa.png';
+        imagemOculosProd.src = 'assets/Mobile/Imagens cards/Cards óculos.png';
 
     } else if (larguraTela >= 769 && larguraTela <= 1440) {
         
@@ -39,6 +54,20 @@ function verificarLarguraTela() {
         imagemCasacosCat.src = 'assets/Tablet/Categorias/Categoria casacos.png';
         imagemOculosCat.src = 'assets/Tablet/Categorias/Categoria óculos.png';
 
+        var imagemCamisaProd = document.querySelector('.imagem-produto-camiseta');
+        var imagemCalçaProd = document.querySelector ('.imagem-produto-calça');
+        var imagemCasacoProd = document.querySelector('.imagem-produto-casaco');
+        var imagemCalçadoProd = document.querySelector('.imagem-produto-calçado');
+        var imagemBolsaProd = document.querySelector('.imagem-produto-bolsa');
+        var imagemOculosProd = document.querySelector('.imagem-produto-oculos');
+
+        imagemCamisaProd.src = 'assets/Tablet/Imagens cards/camiseta.png';
+        imagemCalçaProd.src = 'assets/Tablet/Imagens cards/calça.png';
+        imagemCasacoProd.src = 'assets/Tablet/Imagens cards/jaqueta jeans.png';
+        imagemCalçadoProd.src = 'assets/Tablet/Imagens cards/tenis.png';
+        imagemBolsaProd.src = 'assets/Tablet/Imagens cards/bolsa.png';
+        imagemOculosProd.src = 'assets/Tablet/Imagens cards/óculos.png';
+
     } else {
         
         var logo = document.querySelector('.logo-meteora');
@@ -56,6 +85,20 @@ function verificarLarguraTela() {
         imagemCalcasCat.src = 'assets/Desktop/Categorias/Categoria calça.png';
         imagemCasacosCat.src = 'assets/Desktop/Categorias/Categoria casacos.png';
         imagemOculosCat.src = 'assets/Desktop/Categorias/Categoria óculos.png';
+
+        var imagemCamisaProd = document.querySelector('.imagem-produto-camiseta');
+        var imagemCalçaProd = document.querySelector ('.imagem-produto-calça');
+        var imagemCasacoProd = document.querySelector('.imagem-produto-casaco');
+        var imagemCalçadoProd = document.querySelector('.imagem-produto-calçado');
+        var imagemBolsaProd = document.querySelector('.imagem-produto-bolsa');
+        var imagemOculosProd = document.querySelector('.imagem-produto-oculos');
+
+        imagemCamisaProd.src = 'assets/Desktop/Imagens cards/Camiseta.png';
+        imagemCalçaProd.src = 'assets/Desktop/Imagens cards/Calça.png';
+        imagemCasacoProd.src = 'assets/Desktop/Imagens cards/Jaqueta.png';
+        imagemCalçadoProd.src = 'assets/Desktop/Imagens cards/Tenis.png';
+        imagemBolsaProd.src = 'assets/Desktop/Imagens cards/Bolsa.png';
+        imagemOculosProd.src = 'assets/Desktop/Imagens cards/óculos.png';
     }
   }
   

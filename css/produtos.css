@@ -1,0 +1,124 @@
+/*---------------------- DESKTOP */
+.conteudo__produtos__caixa {
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: 0px auto 84px auto;
+    gap: 30px;
+}
+
+.conteudo__produtos__caixa-titulo {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.73px;
+    color: var(--cor-preta-secundaria);
+}
+
+.conteudo__produtos__caixa-produtos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.conteudo__produtos__caixa-produtosItem {
+    width: 350px;
+    border: 1px solid var(--cor-cinza);
+}
+
+.caixa__informacoes-produto {
+    display: flex;
+    flex-direction: column;
+}
+
+.produto {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--cor-preta-secundaria);
+    text-align: left;
+    margin: 13px auto 13px 16px;
+}
+
+.descricao {
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--cor-preta-secundaria);
+    text-align: left;
+    margin: 0px 16px 16px 16px;
+}
+
+.preco {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--cor-preta-secundaria);
+    text-align: left;
+    margin: 0px auto 10px 16px;
+}
+
+.btnVerMais {
+    width: 102px;
+    padding: 9px 16px;
+    background: var(--cor-roxa);
+    color: var(--cor-branca);
+    border: none;
+    margin: 0px auto 16px 16px;
+    font-family: var(--fonte);
+}
+
+/*---------------------- TABLET */
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .conteudo__produtos__caixa {
+        width: 690px;
+        margin: 0px auto 53px auto;
+        gap: 32px;
+    }
+
+    .conteudo__produtos__caixa-titulo {
+        font-size: 28px;
+        line-height: 33.89px;
+    }
+
+    .conteudo__produtos__caixa-produtos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .conteudo__produtos__caixa-produtosItem {
+        width: 330px;
+        border: 1px solid var(--cor-cinza);
+    }
+}
+
+/*---------------------- MOBILE */
+@media screen and (max-width: 768px) {
+    .conteudo__produtos__caixa {
+        width: 322px;
+        margin: 0px auto 53px auto;
+        gap: 32px;
+    }
+
+    .conteudo__produtos__caixa-titulo {
+        font-size: 28px;
+        line-height: 33.89px;
+    }
+
+    .conteudo__produtos__caixa-produtos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        
+    }
+
+    .conteudo__produtos__caixa-produtosItem {
+        width: 320px;
+        border: 1px solid var(--cor-cinza);
+    }
+}
