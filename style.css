@@ -2,6 +2,8 @@
 
 @import url(css/header.css);
 @import url(css/categoria.css);
+@import url(css/produtos.css);
+@import url(css/facilidades.css);
 
 :root {
     --fonte: 'Inter';
